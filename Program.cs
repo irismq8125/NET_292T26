@@ -8,53 +8,57 @@ namespace NET_292T26
 {
     internal class Program
     {
+        //code method
+        public int Sum_1(int x, int y)
+        {
+            int kq = x + y;
+            return kq;
+        }
+        public double Sum_2(int x, int y)
+        {
+            return x + y;
+        }
+        public int Sum_3(int x, int y) { return x + y; }
+        public static int Sum_4(int x, int y) => x + y; 
+        public static void Sum_5(int x, int y) => Console.WriteLine("Tong la: {0}", x + y);
+
+        public static void NhanVien(string hoten, int lcb, float hsl = 2.34f) => Console.WriteLine(hoten + " " + lcb + " " + hsl);
+
         static void Main(string[] args)
         {
-            //Console.Write("Nhap vao so thang = ");
-            //int i = int.Parse(Console.ReadLine());
 
-            //if(i % 3 == 0)
-            //{
-            //    Console.WriteLine("So chia het cho 3");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("So khong chia het cho 3");
-            //}
-
-            //if (i % 3 == 0) Console.WriteLine("So chia het cho 3");
-            //else Console.WriteLine("So khong chia het cho 3");
-
-            //Console.WriteLine(i % 3 == 0 ? "So chia het cho 3" : "So khong chia het cho 3"); // ? = if, : = else
-
-            //string kq = "So chia het cho 3";
-            //if (i % 3 != 0) kq = "So khong chia het cho 3";
-
-            //Console.WriteLine(kq);
+            NhanVien("Nguyen Van A", 1000000, 2.67f); // Nguyen Van A 1000000 2.67
+            Console.WriteLine(); 
+            NhanVien("Nguyen Van B", 2000000); // Nguyen Van B 2000000 2.34
 
 
-            //switch (i)
-            //{
-            //    case 1: case 3:
-            //    case 5:
-            //    case 7:
-            //        Console.WriteLine("Co 31 ngay");
-            //        break;
-            //    case 2:
-            //        Console.WriteLine("Co 28 hoac 29 ngay");
-            //        break;
-            //    case 4: case 6:
-            //        Console.WriteLine("Co 30 ngay");
-            //        break;
-            //}
+            int songuyen = 10;
+            var soNguyen = 10;
 
-            //Code xu ly bai 4
-            //...
+            string a = "ABCD";
+            var b = "ABCD";
 
 
+            //Console.WriteLine("Nhap gia tri n = ");
+            //int n1 = int.Parse(Console.ReadLine());
+
+            //int n2 = 0;
+            //bool n3 = int.TryParse(Console.ReadLine(), out n2);
+
+            //ham khong co kieu du lieu tra ve
+            //Sum_5(3,6);
+            //Console.WriteLine();
+            ////ham co kieu du lieu tra ve
+            //int kq = Sum_4(3, 6);
+            //Console.WriteLine("Tong la: {0}", kq);
+            //Console.WriteLine("Tong la: {0}", Sum_4(3, 6));
+
+            //if(Sum_4(3, 6) % 2 == 0) Console.WriteLine("So chan");
+            //else Console.WriteLine("So le");
 
 
             Console.ReadKey();
         }
+        //code method
     }
 }
