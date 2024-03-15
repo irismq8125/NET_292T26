@@ -47,29 +47,6 @@ namespace NET_292T26
             //        Console.WriteLine("Co 30 ngay");
             //        break;
             //}
-            //Console.WriteLine("1");
-            //Console.WriteLine("2");
-            //Console.WriteLine("3");
-            //Console.WriteLine("4");
-            //Console.WriteLine("5");
-            //Console.WriteLine("6");
-            //Console.WriteLine("7");
-            //Console.WriteLine("8");
-            //Console.WriteLine("9");
-            //Console.WriteLine("10");
-            //Console.WriteLine("---------------");
-
-            //int tong = 0;
-            //int j = 1;
-            //if (j % 2 != 0) break;
-            //Console.WriteLine(j);
-            //for (int j = 1; j <= 10; j ++) // j = j + 1 | j++
-            //{
-
-            //}
-            //Console.WriteLine(tong);
-            //
-
 
             //Code xu ly bai 4
             //...
