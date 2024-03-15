@@ -60,17 +60,22 @@ namespace NET_292T26
             //Console.WriteLine("---------------");
 
             //int tong = 0;
-            int j = 1;
-            if (j % 2 != 0) break;
-            Console.WriteLine(j);
+            //int j = 1;
+            //if (j % 2 != 0) break;
+            //Console.WriteLine(j);
             //for (int j = 1; j <= 10; j ++) // j = j + 1 | j++
             //{
 
             //}
-
-
-
             //Console.WriteLine(tong);
+            //
+
+
+            //Code xu ly bai 4
+            //...
+
+
+
 
             Console.ReadKey();
         }
